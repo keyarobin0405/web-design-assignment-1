@@ -3,7 +3,7 @@
       box-sizing: border-box;
     }
     body {
-      margin:0;
+      margin: auto;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background-color: #f7f7fb;
       color: #1a1a1a;
@@ -11,7 +11,7 @@
       flex-direction: column;
       min-height: 100vh;
     }
-        
+
     a {
       text-decoration: none;
       color: #fff;
@@ -78,6 +78,7 @@
       font-size: 1rem;
       font-weight: 700;
       border-radius: 12px;
+      
     }
     .hero .btn-primary:hover {
       background-color: #5751d8;
@@ -221,6 +222,7 @@
       max-width: 480px;
       margin: 0 auto 80px;
       padding: 0 10px;
+      display: flex;
     }
     .contact h2 {
       font-weight: 900;
@@ -228,6 +230,7 @@
       margin-bottom: 24px;
       color: #121212;
       letter-spacing: 0.03em;
+      
     }
     form {
       display: flex;
